@@ -28,15 +28,15 @@ header {
     justify-content: space-between;
     align-items: center;
     /* background-color: black; */
-    padding: 1.5rem;
-    margin: 0 1rem;
+    padding: 1.5em;
+    margin: 0 1em;
 }
 
 .logo {
     color: white;
     font-weight: 400;
-    margin-left: 2rem;
-    font-size: 1.5rem;
+    margin-left: 2em;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ header {
 
 .navitems ul li {
     list-style: none;
-    margin: 1rem;
+    margin: 1em;
 }
 
 .navitems ul li:hover {
@@ -56,8 +56,8 @@ header {
 }
 
 .navitems li a {
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 0.5em;
+    font-size: 1em;
     text-decoration: none;
     color: white;
     font-weight: lighter;
@@ -75,10 +75,10 @@ header {
     border-top: 1px solid #f668a9;
     border-bottom: 1px solid #f668a9;
     border-right: 1px solid #cc55ef;
-    border-radius: 1.5rem;
-    padding: 1rem 2rem;
-    margin: 0 0.2rem;
-    font-size: 0.9rem;
+    border-radius: 1.5em;
+    padding: 1em 2em;
+    margin: 0 0.2em;
+    font-size: 0.9em;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -88,11 +88,11 @@ header {
 }
 
 .navbuttons .darkmode {
-    height: 3.2rem;
-    width: 3.2rem;
+    height: 3.2em;
+    width: 3.2em;
     border-radius: 50%;
     background-color: black;
-    margin: 0 0.3rem;
+    margin: 0 0.3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,8 +106,8 @@ header {
 
 
 .navbuttons .darkmode img {
-    height: 1rem;
-    width: 1rem;
+    height: 1em;
+    width: 1em;
 }
 
 
@@ -129,17 +129,17 @@ header {
 }
 
 .home-first-heading {
-    margin: 1rem;
+    margin: 1em;
 }
 
 .home-first-heading p {
-    margin: 0.5rem 0;
-    letter-spacing: 0.3rem;
-    font-size: 1rem;
+    margin: 0.5em 0;
+    letter-spacing: 0.3em;
+    font-size: 1em;
 }
 
 .home-first-heading h1 {
-    font-size: 3.5rem;
+    font-size: 3.5em;
 }
 
 
@@ -150,10 +150,10 @@ header {
 }
 
 .home-first-heading .btn {
-    padding: 1rem 2rem;
-    margin: 1rem 0;
-    border-radius: 2rem;
-    font-size: 0.8rem;
+    padding: 1em 2em;
+    margin: 1em 0;
+    border-radius: 2em;
+    font-size: 0.8em;
     background: transparent;
     border: 1px solid gray;
     color: white;
@@ -173,14 +173,14 @@ header {
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
     border-left: 7px solid #ff0075;
-    margin: 0 0.3rem;
+    margin: 0 0.3em;
 }
 
 .home-first-contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1rem;
+    margin: 1em;
     width: 80%;
 }
 
@@ -209,12 +209,12 @@ header {
     justify-content: space-evenly;
     align-items: center;
     background: rgba(20, 20, 23, 1);
-    padding: 2.5rem;
+    padding: 2.5em;
 }
 
 .brands img {
     display: block;
-    height: 3.5rem;
+    height: 3.5em;
 }
 
 
@@ -226,7 +226,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2em;
     position: relative;
     overflow: hidden;
 }
@@ -237,47 +237,47 @@ header {
 }
 
 .about .glass1 {
-    top: -12rem;
-    right: -10rem;
-    width: 25rem;
-    height: 25rem
+    top: -12em;
+    right: -10em;
+    width: 25em;
+    height: 25em
 }
 
 .about .glass2 {
-    width: 20rem;
-    height: 20rem;
-    bottom: 15rem;
-    left: -10rem;
+    width: 20em;
+    height: 20em;
+    bottom: 15em;
+    left: -10em;
 }
 
 .about-first {
     display: flex;
     justify-content: space-around;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1em;
+    padding: 1em;
 }
 
 .about-heading {
-    padding: 1rem;
-    margin: 1rem;
+    padding: 1em;
+    margin: 1em;
     width: 50%;
-    padding-left: 5rem;
+    padding-left: 5em;
 }
 
 .about-heading p {
-    letter-spacing: 1rem;
+    letter-spacing: 1em;
 }
 
 .about-heading h1 {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4rem;
+    font-size: 4em;
 }
 
 .about-content {
-    padding: 1rem;
-    margin: 1rem;
+    padding: 1em;
+    margin: 1em;
     width: 50%;
     height: auto;
 }
@@ -291,20 +291,20 @@ header {
     background-color: grey;
     height: 1%;
     width: 5%;
-    border-radius: 0.5rem;
-    margin: 1rem 1rem 0 0;
+    border-radius: 0.5em;
+    margin: 1em 1em 0 0;
 }
 
 .about-content p {
     width: 65%;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .about-content .btn {
-    padding: 1.2rem 2.5rem;
-    margin: 2rem;
-    border-radius: 2rem;
-    font-size: 0.8rem;
+    padding: 1.2em 2.5em;
+    margin: 2em;
+    border-radius: 2em;
+    font-size: 0.8em;
     background: transparent;
     border: 1px solid gray;
     color: white;
@@ -321,22 +321,22 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1em;
+    padding: 1em;
     width: 100%;
 }
 
 .about-second .card {
-    height: 15rem;
-    width: 29rem;
+    height: 15em;
+    width: 29em;
     background-color: rgba(18, 18, 23, 1);
-    border-radius: 1rem;
+    border-radius: 1em;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-direction: column;
-    padding: 2.5rem;
-    font-size: 2rem;
+    padding: 2.5em;
+    font-size: 2em;
     border-top: 1px solid #313131;
     border-bottom: 1px solid #ff6b85;
     border-left: 1px solid rgb(63, 1, 121);
@@ -361,7 +361,7 @@ header {
     width: 60%;
     background: url("assets/img/approach.png") no-repeat center center/cover;
     mix-blend-mode: difference;
-    box-shadow: inset 10rem 10rem 13rem rgb(0 0 0);
+    box-shadow: inset 10em 10em 13em rgb(0 0 0);
 
 }
 
@@ -370,47 +370,47 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin: 1rem;
-    padding: 4rem 0;
+    margin: 1em;
+    padding: 4em 0;
 }
 
 .approach-second .heading-secondary {
     color: white;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5em;
 }
 
 .approach-second .heading-primary {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3.5rem;
-    margin: 1rem 0;
+    font-size: 3.5em;
+    margin: 1em 0;
 }
 
 .approach-second .para {
     color: gray;
     width: 75%;
-    line-height: 1.7rem;
-    font-size: 1.2rem;
+    line-height: 1.7em;
+    font-size: 1.2em;
 }
 
 .approach-cards {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 16rem;
+    height: 16em;
 }
 
 .approach-second .card {
-    height: 4.5rem;
-    width: 30rem;
+    height: 4.5em;
+    width: 30em;
     background-color: rgba(18, 18, 23, 1);
-    border-radius: 1rem;
+    border-radius: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     border: 1px solid #505050;
     transition: all 0.3s ease;
 }
@@ -428,9 +428,9 @@ header {
 }
 
 .approach-second .btn {
-    padding: 1.2rem 2.5rem;
-    border-radius: 2rem;
-    font-size: 0.8rem;
+    padding: 1.2em 2.5em;
+    border-radius: 2em;
+    font-size: 0.8em;
     background: transparent;
     border: 1px solid #373737;
     color: white;
@@ -452,12 +452,12 @@ header {
     align-items: center;
     background: rgba(10, 10, 13, 1);
     color: white;
-    padding: 1rem 10rem;
+    padding: 1em 10em;
 }
 
 .services-heading .secondary {
     color: white;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5em;
     text-align: center;
 }
 
@@ -465,9 +465,9 @@ header {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4.3rem;
+    font-size: 4.3em;
     font-weight: bold;
-    margin: 0.5rem 0;
+    margin: 0.5em 0;
     text-align: center;
 }
 
@@ -477,23 +477,23 @@ header {
     align-items: center;
     border-bottom: 1px solid rgba(47, 47, 47, 1);
     width: 100%;
-    padding: 1rem 0;
+    padding: 1em 0;
 }
 
 .services .service .number {
     color: rgba(47, 47, 47, 1);
-    font-size: 3rem;
+    font-size: 3em;
     width: 10%;
 }
 
 .services .service p {
-    font-size: 4rem;
+    font-size: 4em;
     width: 75%;
 }
 
 .services .service .service-arrow-div {
-    width: 3rem;
-    height: 3rem;
+    width: 3em;
+    height: 3em;
     background-color: rgba(47, 47, 47, 1);
     border-radius: 50%;
     display: flex;
@@ -504,13 +504,13 @@ header {
 
 .service div .material-symbols-outlined {
     color: white;
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .services .btn {
-    padding: 1.2rem 2.5rem;
-    border-radius: 2rem;
-    font-size: 0.8rem;
+    padding: 1.2em 2.5em;
+    border-radius: 2em;
+    font-size: 0.8em;
     background: transparent;
     border: 1px solid #373737;
     color: white;
@@ -544,33 +544,33 @@ header {
 
 .portfolio-first .secondary {
     color: white;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5em;
 }
 
 .portfolio-first .primary {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4.3rem;
+    font-size: 4.3em;
     font-weight: bold;
-    margin: 0.5rem 0;
+    margin: 0.5em 0;
 }
 
 .portfolio-first .portfolio-headers {
     color: white;
     border-bottom: 1px solid rgba(47, 47, 47, 1);
-    padding: 1.5rem 0;
+    padding: 1.5em 0;
 }
 
 .portfolio-first .portfolio-headers span {
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 0.5em;
+    padding: 0.5em;
     cursor: pointer;
 }
 
 .portfolio-first .portfolio-headers span:hover {
     border-bottom: 2px solid #ff0075;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.5em;
 }
 
 .portfolio-headers span:last-child {
@@ -587,7 +587,7 @@ header {
     ;
     mix-blend-mode: difference;
     background-color: red;
-    margin-right: 1rem;
+    margin-right: 1em;
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
@@ -599,28 +599,28 @@ header {
 
 .portfolio .portfolio-second .img1 {
     width: 30vw;
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
     background: url("assets/img/portfolio1.png") no-repeat center center/cover;
 }
 
 .portfolio .portfolio-second .img2 {
     width: 40vw;
-    border-radius: 1rem;
+    border-radius: 1em;
     background: url("assets/img/portfolio2.png") no-repeat center center/cover;
 }
 
 .portfolio .portfolio-second .img3 {
     width: 30vw;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
     background: url("assets/img/portfolio3.png") no-repeat center center/cover;
 }
 
 .portfolio .btn {
-    padding: 1.2rem 2.5rem;
-    border-radius: 2rem;
-    font-size: 0.8rem;
+    padding: 1.2em 2.5em;
+    border-radius: 2em;
+    font-size: 0.8em;
     background: transparent;
     border: 1px solid #373737;
     color: white;
@@ -646,18 +646,18 @@ header {
 
 .testimonials-headings .secondary {
     color: white;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5em;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 }
 
 .testimonials-headings .primary {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4.3rem;
+    font-size: 4.3em;
     font-weight: bold;
-    margin: 0.5rem 0;
+    margin: 0.5em 0;
     text-align: center;
 }
 
@@ -668,21 +668,21 @@ header {
 }
 
 .testimonials-container .image1 {
-    width: 16rem;
-    height: 16rem;
+    width: 16em;
+    height: 16em;
     position: absolute;
-    top: -6rem;
-    left: -6rem;
+    top: -6em;
+    left: -6em;
     transform: rotate(30deg);
 }
 
 .testimonials-container .image2 {
-    width: 14rem;
-    height: 14rem;
+    width: 14em;
+    height: 14em;
     position: absolute;
     transform: rotate(30deg);
-    bottom: 2rem;
-    right: -6rem;
+    bottom: 2em;
+    right: -6em;
 }
 
 .testimonials-container .image img {
@@ -698,14 +698,14 @@ header {
 }
 
 .testimonials-container .card {
-    height: 22rem;
-    width: 34rem;
+    height: 22em;
+    width: 34em;
     background-color: rgba(18, 18, 23, 0.4);
-    border-radius: 1rem;
-    padding: 2.5rem;
+    border-radius: 1em;
+    padding: 2.5em;
     transition: all 0.3s ease-in-out;
     color: white;
-    margin: 1rem;
+    margin: 1em;
     border-top: 1px solid rgb(49, 49, 49, 0.4);
     border-bottom: 1px solid rgba(255, 107, 134, 0.4);
     border-left: 1px solid rgba(63, 1, 121, 0.4);
@@ -722,49 +722,49 @@ header {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 5rem;
+    font-size: 5em;
     font-weight: bolder;
     font-style: italic;
 }
 
 .testimonials-container .card .card-heading {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .testimonials-container .card .card-para {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    font-size: 1.2em;
+    line-height: 1.8em;
     color: gray;
 
 }
 
 .testimonials-container .customer {
-    margin: 0 1rem;
+    margin: 0 1em;
 }
 
 .testimonials-container .customer .customer-detail {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1em 0;
 }
 
 .testimonials-container .customer .customer-detail .img {
-    width: 4rem;
-    height: 4rem;
+    width: 4em;
+    height: 4em;
     background: url('assets/img/customer.png') no-repeat center center/cover;
     border-radius: 50%;
 }
 
 .testimonials-container .customer .customer-detail .name {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .testimonials-container .customer .customer-detail .stars {
     color: yellow;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .testimonials-container .customer .linearborder {
@@ -785,12 +785,12 @@ header {
     width: 5%;
     padding: 0.5px;
     background-color: #505050;
-    margin: 0 0.5rem;
+    margin: 0 0.5em;
 }
 
 .testimonials .testimonials-divider .arrow {
-    width: 2rem;
-    height: 2rem;
+    width: 2em;
+    height: 2em;
 }
 
 .testimonials .testimonials-divider .arrow img {
@@ -811,7 +811,7 @@ header {
     width: 80%;
     height: 80%;
     background: url('assets/img/formbg.jpg') no-repeat center center/cover;
-    border-radius: 2rem;
+    border-radius: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -826,29 +826,29 @@ header {
 }
 
 .form-container-main .form-heading {
-    padding: 0px 8rem;
+    padding: 0px 8em;
 }
 
 .form-container .form-heading .secondary {
     color: white;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5em;
 }
 
 .form-container .form-heading .primary {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-weight: bold;
-    margin: 0.5rem 0;
+    margin: 0.5em 0;
 }
 
 .form .form-container .phone-number {
     color: white;
-    letter-spacing: 0.2rem;
-    font-size: 2rem;
+    letter-spacing: 0.2em;
+    font-size: 2em;
     font-weight: bold;
-    padding: 0px 8rem;
+    padding: 0px 8em;
 }
 
 .form .form-container .form-form {
@@ -858,20 +858,20 @@ header {
     justify-content: space-evenly;
     /* align-items: center; */
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 1em 0;
 }
 
 .form .form-form .inputfield {
     width: 45%;
     display: inline-block;
     color: white;
-    margin: 1rem;
+    margin: 1em;
 }
 
 .form .form-form .inputfield label {
     display: block;
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
+    font-size: 1.5em;
+    margin: 0.5em 0;
 }
 
 .form .form-form .inputfield small {
@@ -880,7 +880,7 @@ header {
 
 .form .form-form .inputfield input {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     background: transparent;
     border: none;
     border-bottom: 1px solid gray;
@@ -889,13 +889,13 @@ header {
 }
 
 .form .form-form .inputfield input::placeholder {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .form-form .btn {
-    padding: 1.2rem 3.3rem;
-    border-radius: 2rem;
-    font-size: 0.8rem;
+    padding: 1.2em 3.3em;
+    border-radius: 2em;
+    font-size: 0.8em;
     background: transparent;
     border: 1px solid white;
     color: white;
@@ -912,7 +912,7 @@ header {
 .slider {
     width: 100vw;
     background: url(assets/img/slider.PNG) no-repeat center center / cover;
-    padding: 3.5rem;
+    padding: 3.5em;
 }
 
 .footer {
@@ -922,7 +922,7 @@ header {
 }
 
 .footer .footer-top {
-    padding: 2.5rem;
+    padding: 2.5em;
 
 }
 
@@ -930,10 +930,10 @@ header {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     font-weight: bold;
-    margin: 0.5rem 0;
-    padding: 0 2.5rem;
+    margin: 0.5em 0;
+    padding: 0 2.5em;
 }
 
 .footer .footer-top .footer-top-container {
@@ -942,12 +942,12 @@ header {
 }
 
 .footer-top-first .card {
-    height: 22rem;
-    width: 34rem;
+    height: 22em;
+    width: 34em;
     background-color: rgba(18, 18, 23, 0.4);
-    border-radius: 1rem;
-    padding: 2.5rem;
-    margin: 1rem;
+    border-radius: 1em;
+    padding: 2.5em;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -956,11 +956,11 @@ header {
 }
 
 .footer .footer-top-first .card .image-div {
-    width: 20rem;
-    height: 20rem;
+    width: 20em;
+    height: 20em;
     position: absolute;
     top: 0;
-    right: -10rem;
+    right: -10em;
 }
 
 .footer .footer-top-first .card img {
@@ -970,20 +970,20 @@ header {
 
 .footer-top-first .card .card-heading {
     color: white;
-    font-size: 1.5rem;
-    margin: 1rem 0;
+    font-size: 1.5em;
+    margin: 1em 0;
 }
 
 .footer-top-first .card .card-para {
     color: gray;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     width: 60%;
 }
 
 .footer-top-first .card .card-number {
     color: white;
-    font-size: 2.2rem;
-    margin: 1rem 0;
+    font-size: 2.2em;
+    margin: 1em 0;
 }
 
 .footer .footer-top-second {
@@ -997,8 +997,8 @@ header {
 
 .footer-top-second .footer-top-second-top .para {
     width: 50%;
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 1.5em;
+    padding: 1em;
     color: gray;
     border-bottom: 1px solid #313131;
     border-right: 1px solid #313131
@@ -1019,8 +1019,8 @@ header {
 }
 
 .footer-top-second .footer-top-second-top .phoneImage {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.5em;
+    height: 2.5em;
 }
 
 .footer-top-second .footer-top-second-top .phoneImage img {
@@ -1033,7 +1033,7 @@ header {
 }
 
 .footer-top-second .footer-top-second-top .phone .number {
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
 }
 
 .footer-top-second .footer-top-second-top .email {
@@ -1050,7 +1050,7 @@ header {
 }
 
 .footer-top-second .footer-top-second-top .email .number {
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
 }
 
 .footer-top-second-bottom {
@@ -1060,35 +1060,35 @@ header {
 }
 
 .footer-top-second-bottom .footer-quicklinks {
-    padding: 3rem 5rem;
+    padding: 3em 5em;
     border-right: 1px solid #313131;
 }
 
 .footer-top-second-bottom .head {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.3em;
+    margin-bottom: 1em;
     color: white;
 }
 .footer-top-second-bottom p {
     color: gray;
-    line-height: 1.5rem;
+    line-height: 1.5em;
 }
 
 .footer-top-second-bottom .footer-services {
-    padding: 3rem 5rem;
+    padding: 3em 5em;
     border-right: 1px solid #313131;
 }
 
 .footer-top-second-bottom .footer-get-connected {
-    padding: 3rem 5rem;
+    padding: 3em 5em;
 }
 
 .footer-top-second-bottom .footer-get-connected input {
-    font-size: 1rem;
-    margin: 1rem 0;
-    padding: 1rem;
-    border-radius: 2rem;
-    width: 18rem;
+    font-size: 1em;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 2em;
+    width: 18em;
     background: rgba(18, 18, 23, 0.4);
     outline: none;
     border: 1px solid #121212;
@@ -1101,14 +1101,14 @@ header {
     display: flex;
 }
 .footer-top-second-bottom .footer-get-connected .fb {
-    width: 3rem;
-    height: 3rem;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     border: 1px solid #313131;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 0.5rem;
+    margin-right: 0.5em;
 }
 .footer-top-second-bottom .footer-get-connected .fb img{
     filter: invert();
@@ -1117,11 +1117,11 @@ header {
 .footer-middle{
     width: 100%;
     color:  rgba(18, 18, 23, 1);
-    font-size: 8rem;
+    font-size: 8em;
     font-weight: bold;
     text-align: center;
-    margin: 2rem 0;
-    padding: 1rem 0
+    margin: 2em 0;
+    padding: 1em 0
 }
 
 .footer-bottom{
@@ -1134,6 +1134,6 @@ header {
 
 .footer-bottom p{
     color: white;
-    padding: 2rem;
-    letter-spacing: 0.2rem;
+    padding: 2em;
+    letter-spacing: 0.2em;
 }
