@@ -28,15 +28,15 @@ header {
     justify-content: space-between;
     align-items: center;
     /* background-color: black; */
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 0 1rem;
 }
 
 .logo {
     color: white;
     font-weight: 400;
-    margin-left: 2rem;
-    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ header {
 
 .navitems li a {
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-decoration: none;
     color: white;
     font-weight: lighter;
@@ -76,9 +76,9 @@ header {
     border-bottom: 1px solid #f668a9;
     border-right: 1px solid #cc55ef;
     border-radius: 1.5rem;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.5rem;
     margin: 0 0.2rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -139,7 +139,7 @@ header {
 }
 
 .home-first-heading h1 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
 }
 
 
@@ -150,10 +150,10 @@ header {
 }
 
 .home-first-heading .btn {
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.8rem;
     margin: 1rem 0;
     border-radius: 2rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     background: transparent;
     border: 1px solid gray;
     color: white;
@@ -163,16 +163,16 @@ header {
 
 .home-first-heading .btn:hover {
     background: #121212;
-    scale: 1.05;
+    scale: 1.03;
 }
 
 .home-first-heading .btn .arrow {
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    border-left: 7px solid #ff0075;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #ff0075;
     margin: 0 0.3rem;
 }
 
@@ -265,14 +265,14 @@ header {
 }
 
 .about-heading p {
-    letter-spacing: 1rem;
+    letter-spacing: 0.8rem;
 }
 
 .about-heading h1 {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .about-content {
@@ -297,11 +297,11 @@ header {
 
 .about-content p {
     width: 65%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .about-content .btn {
-    padding: 1.2rem 2.5rem;
+    padding: 1rem 2.3rem;
     margin: 2rem;
     border-radius: 2rem;
     font-size: 0.8rem;
@@ -327,8 +327,8 @@ header {
 }
 
 .about-second .card {
-    height: 15rem;
-    width: 29rem;
+    height: 14rem;
+    width: 24rem;
     background-color: rgba(18, 18, 23, 1);
     border-radius: 1rem;
     display: flex;
@@ -336,7 +336,7 @@ header {
     align-items: flex-start;
     flex-direction: column;
     padding: 2.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-top: 1px solid #313131;
     border-bottom: 1px solid #ff6b85;
     border-left: 1px solid rgb(63, 1, 121);
@@ -371,7 +371,7 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 1rem;
-    padding: 4rem 0;
+    /* padding: 3rem 0; */
 }
 
 .approach-second .heading-secondary {
@@ -398,19 +398,19 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 16rem;
+    height: 14rem;
 }
 
 .approach-second .card {
-    height: 4.5rem;
-    width: 30rem;
+    height: 3.5rem;
+    width: 24rem;
     background-color: rgba(18, 18, 23, 1);
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     border: 1px solid #505050;
     transition: all 0.3s ease;
 }
@@ -428,7 +428,7 @@ header {
 }
 
 .approach-second .btn {
-    padding: 1.2rem 2.5rem;
+    padding: 1rem 2.3rem;
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
@@ -465,7 +465,7 @@ header {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4.3rem;
+    font-size: 4rem;
     font-weight: bold;
     margin: 0.5rem 0;
     text-align: center;
@@ -482,18 +482,18 @@ header {
 
 .services .service .number {
     color: rgba(47, 47, 47, 1);
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: 10%;
 }
 
 .services .service p {
-    font-size: 4rem;
+    font-size: 3.5rem;
     width: 75%;
 }
 
 .services .service .service-arrow-div {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: rgba(47, 47, 47, 1);
     border-radius: 50%;
     display: flex;
@@ -504,7 +504,7 @@ header {
 
 .service div .material-symbols-outlined {
     color: white;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .services .btn {
@@ -537,7 +537,7 @@ header {
 .portfolio .portfolio-first {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
 }
@@ -563,7 +563,7 @@ header {
 }
 
 .portfolio-first .portfolio-headers span {
-    margin: 0.5rem;
+    /* margin: 0.5rem; */
     padding: 0.5rem;
     cursor: pointer;
 }
@@ -618,7 +618,7 @@ header {
 }
 
 .portfolio .btn {
-    padding: 1.2rem 2.5rem;
+    padding: 1rem 2.3rem;
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
@@ -655,7 +655,7 @@ header {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 4.3rem;
+    font-size: 4rem;
     font-weight: bold;
     margin: 0.5rem 0;
     text-align: center;
@@ -698,8 +698,8 @@ header {
 }
 
 .testimonials-container .card {
-    height: 22rem;
-    width: 34rem;
+    height: 20rem;
+    width: 30rem;
     background-color: rgba(18, 18, 23, 0.4);
     border-radius: 1rem;
     padding: 2.5rem;
@@ -722,18 +722,18 @@ header {
     background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bolder;
     font-style: italic;
 }
 
 .testimonials-container .card .card-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
 .testimonials-container .card .card-para {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8rem;
     color: gray;
 
@@ -751,20 +751,20 @@ header {
 }
 
 .testimonials-container .customer .customer-detail .img {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
     background: url('assets/img/customer.png') no-repeat center center/cover;
     border-radius: 50%;
 }
 
 .testimonials-container .customer .customer-detail .name {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .testimonials-container .customer .customer-detail .stars {
     color: yellow;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .testimonials-container .customer .linearborder {
@@ -865,12 +865,13 @@ header {
     width: 45%;
     display: inline-block;
     color: white;
-    margin: 1rem;
+    margin: 0.2rem;
+    padding: 0.3rem;
 }
 
 .form .form-form .inputfield label {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0.5rem 0;
 }
 
@@ -880,7 +881,7 @@ header {
 
 .form .form-form .inputfield input {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background: transparent;
     border: none;
     border-bottom: 1px solid gray;
@@ -889,11 +890,11 @@ header {
 }
 
 .form .form-form .inputfield input::placeholder {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .form-form .btn {
-    padding: 1.2rem 3.3rem;
+    padding: 1rem 3rem;
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
@@ -942,8 +943,8 @@ header {
 }
 
 .footer-top-first .card {
-    height: 22rem;
-    width: 34rem;
+    height: 20rem;
+    width: 30rem;
     background-color: rgba(18, 18, 23, 0.4);
     border-radius: 1rem;
     padding: 2.5rem;
@@ -970,19 +971,19 @@ header {
 
 .footer-top-first .card .card-heading {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 1rem 0;
 }
 
 .footer-top-first .card .card-para {
     color: gray;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 60%;
 }
 
 .footer-top-first .card .card-number {
     color: white;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
 }
 
@@ -996,8 +997,8 @@ header {
 }
 
 .footer-top-second .footer-top-second-top .para {
-    width: 50%;
-    font-size: 1.5rem;
+    width: 38%;
+    font-size: 1.3rem;
     padding: 1rem;
     color: gray;
     border-bottom: 1px solid #313131;
@@ -1011,7 +1012,7 @@ header {
 .footer-top-second .footer-top-second-top .phone {
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
+    width: 25%;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid #313131;
@@ -1019,8 +1020,8 @@ header {
 }
 
 .footer-top-second .footer-top-second-top .phoneImage {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .footer-top-second .footer-top-second-top .phoneImage img {
@@ -1039,7 +1040,7 @@ header {
 .footer-top-second .footer-top-second-top .email {
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 35%;
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid #313131;
@@ -1060,8 +1061,9 @@ header {
 }
 
 .footer-top-second-bottom .footer-quicklinks {
-    padding: 3rem 5rem;
+    padding: 2rem ;
     border-right: 1px solid #313131;
+    width: 25%;
 }
 
 .footer-top-second-bottom .head {
@@ -1075,12 +1077,13 @@ header {
 }
 
 .footer-top-second-bottom .footer-services {
-    padding: 3rem 5rem;
+    padding: 2rem;
     border-right: 1px solid #313131;
+    width: 25%;
 }
 
 .footer-top-second-bottom .footer-get-connected {
-    padding: 3rem 5rem;
+    padding: 2rem;
 }
 
 .footer-top-second-bottom .footer-get-connected input {
@@ -1101,8 +1104,8 @@ header {
     display: flex;
 }
 .footer-top-second-bottom .footer-get-connected .fb {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     border: 1px solid #313131;
     display: flex;
@@ -1117,7 +1120,7 @@ header {
 .footer-middle{
     width: 100%;
     color:  rgba(18, 18, 23, 1);
-    font-size: 8rem;
+    font-size: 6.5rem;
     font-weight: bold;
     text-align: center;
     margin: 2rem 0;
@@ -1134,6 +1137,6 @@ header {
 
 .footer-bottom p{
     color: white;
-    padding: 2rem;
-    letter-spacing: 0.2rem;
+    padding: 1rem 2rem;
+    letter-spacing: 0.1rem;
 }
