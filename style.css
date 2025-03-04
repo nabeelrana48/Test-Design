@@ -1,3 +1,29 @@
+:root{
+    --primary-clr:white;
+    --secondary-clr: gray;
+    --dark-gray: #373737;
+    --bg-dark: rgba(18, 18, 23, 1);
+    --linear-text: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+}
+
+/****** Custom Classes ******/
+.d-none{
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-inlineblock{
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/***********************/
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +36,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/****** Main ******/
 main {
     height: 100vh;
     width: 100vw;
@@ -20,20 +48,19 @@ main {
 header {
     background-color: rgba(29, 29, 29, 0.6);
     width: 100%;
-    /* position: relative; */
 }
 
+/****** Navbar ******/
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: black; */
     padding: 1rem;
     margin: 0 1rem;
 }
 
 .logo {
-    color: white;
+    color: var(--primary-clr);
     font-weight: 400;
     margin-left: 1.5rem;
     font-size: 1.3rem;
@@ -59,7 +86,7 @@ header {
     padding: 0.5rem;
     font-size: 0.8rem;
     text-decoration: none;
-    color: white;
+    color: var(--primary-clr);
     font-weight: lighter;
 }
 
@@ -70,7 +97,7 @@ header {
 }
 
 .navbuttons .btn {
-    color: white;
+    color: var(--primary-clr);
     border-left: 1px solid #e1714e;
     border-top: 1px solid #f668a9;
     border-bottom: 1px solid #f668a9;
@@ -110,9 +137,9 @@ header {
     width: 1rem;
 }
 
-
+/****** Home ******/
 .home {
-    color: white;
+    color: var(--primary-clr);
     display: flex;
     justify-content: space-around;
     height: 90vh;
@@ -144,7 +171,7 @@ header {
 
 
 .home-first-heading .clr {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -155,8 +182,8 @@ header {
     border-radius: 2rem;
     font-size: 0.7rem;
     background: transparent;
-    border: 1px solid gray;
-    color: white;
+    border: 1px solid var(--secondary-clr);
+    color: var(--primary-clr);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -185,7 +212,7 @@ header {
 }
 
 .home-first-contact p {
-    color: rgba(155, 155, 155, 1);
+    color: var(--secondary-clr);
 }
 
 .home-first-contact .hr {
@@ -204,6 +231,8 @@ header {
     height: 100%;
 }
 
+/****** Brands ******/
+
 .brands {
     display: flex;
     justify-content: space-evenly;
@@ -217,11 +246,11 @@ header {
     height: 3.5rem;
 }
 
-
+/****** About ******/
 .about {
     height: 100vh;
     background: rgba(10, 10, 13, 1);
-    color: white;
+    color: var(--primary-clr);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -269,7 +298,7 @@ header {
 }
 
 .about-heading h1 {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.5rem;
@@ -306,14 +335,14 @@ header {
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
-    border: 1px solid gray;
-    color: white;
+    border: 1px solid var(--secondary-clr);
+    color: var(--primary-clr);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 .about-content .btn:hover {
-    background: rgba(18, 18, 23, 1);
+    background: var(--bg-dark);
     scale: 1.05;
 }
 
@@ -329,7 +358,7 @@ header {
 .about-second .card {
     height: 14rem;
     width: 24rem;
-    background-color: rgba(18, 18, 23, 1);
+    background-color: var(--bg-dark);
     border-radius: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -340,7 +369,7 @@ header {
     border-top: 1px solid #313131;
     border-bottom: 1px solid #ff6b85;
     border-left: 1px solid rgb(63, 1, 121);
-    border-right: 1px solid gray;
+    border-right: 1px solid var(--secondary-clr);
     transition: all 0.3s ease-in-out;
     z-index: 2;
 }
@@ -350,6 +379,7 @@ header {
     box-shadow: 4px 4px 10px rgba(153, 153, 153, 0.3);
 }
 
+/****** Approach ******/
 .approach {
     height: 100vh;
     width: 100vw;
@@ -371,16 +401,15 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 1rem;
-    /* padding: 3rem 0; */
 }
 
 .approach-second .heading-secondary {
-    color: white;
+    color: var(--primary-clr);
     letter-spacing: 0.5rem;
 }
 
 .approach-second .heading-primary {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.5rem;
@@ -388,7 +417,7 @@ header {
 }
 
 .approach-second .para {
-    color: gray;
+    color: var(--secondary-clr);
     width: 75%;
     line-height: 1.7rem;
     font-size: 1.2rem;
@@ -404,14 +433,14 @@ header {
 .approach-second .card {
     height: 3.5rem;
     width: 24rem;
-    background-color: rgba(18, 18, 23, 1);
+    background-color: var(--bg-dark);
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--primary-clr);
     font-size: 1.25rem;
-    border: 1px solid #505050;
+    border: 1px solid var(--dark-gray);
     transition: all 0.3s ease;
 }
 
@@ -432,17 +461,18 @@ header {
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
-    border: 1px solid #373737;
-    color: white;
+    border: 1px solid var(--dark-gray);
+    color: var(--primary-clr);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 .approach-second .btn:hover {
-    background: rgba(18, 18, 23, 1);
+    background: var(--bg-dark);
     scale: 1.05;
 }
 
+/****** Services ******/
 .services {
     width: 100vw;
     height: 150vh;
@@ -451,18 +481,18 @@ header {
     justify-content: space-evenly;
     align-items: center;
     background: rgba(10, 10, 13, 1);
-    color: white;
+    color: var(--primary-clr);
     padding: 1rem 10rem;
 }
 
 .services-heading .secondary {
-    color: white;
+    color: var(--primary-clr);
     letter-spacing: 0.5rem;
     text-align: center;
 }
 
 .services-heading .primary {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
@@ -475,13 +505,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(47, 47, 47, 1);
+    border-bottom: 1px solid var(--dark-gray);
     width: 100%;
     padding: 1rem 0;
 }
 
 .services .service .number {
-    color: rgba(47, 47, 47, 1);
+    color: var(--dark-gray);
     font-size: 2.5rem;
     width: 10%;
 }
@@ -494,7 +524,7 @@ header {
 .services .service .service-arrow-div {
     width: 2.5rem;
     height: 2.5rem;
-    background-color: rgba(47, 47, 47, 1);
+    background-color: var(--dark-gray);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -503,7 +533,7 @@ header {
 }
 
 .service div .material-symbols-outlined {
-    color: white;
+    color: var(--primary-clr);
     font-size: 1.3rem;
 }
 
@@ -512,17 +542,18 @@ header {
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
-    border: 1px solid #373737;
-    color: white;
+    border: 1px solid var(--dark-gray);
+    color: var(--primary-clr);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 .services .btn:hover {
-    background: rgba(18, 18, 23, 1);
+    background: var(--bg-dark);
     scale: 1.05;
 }
 
+/****** Portfolio ******/
 .portfolio {
     width: 100vw;
     height: 100vh;
@@ -543,12 +574,12 @@ header {
 }
 
 .portfolio-first .secondary {
-    color: white;
+    color: var(--primary-clr);
     letter-spacing: 0.5rem;
 }
 
 .portfolio-first .primary {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4.3rem;
@@ -557,13 +588,12 @@ header {
 }
 
 .portfolio-first .portfolio-headers {
-    color: white;
-    border-bottom: 1px solid rgba(47, 47, 47, 1);
+    color: var(--primary-clr);
+    border-bottom: 1px solid var(--dark-gray);
     padding: 1.5rem 0;
 }
 
 .portfolio-first .portfolio-headers span {
-    /* margin: 0.5rem; */
     padding: 0.5rem;
     cursor: pointer;
 }
@@ -574,7 +604,7 @@ header {
 }
 
 .portfolio-headers span:last-child {
-    color: #505050;
+    color: var(--dark-gray);
 }
 
 .portfolio .portfolio-second {
@@ -584,9 +614,7 @@ header {
 
 .portfolio .portfolio-second .img {
     height: 50vh;
-    ;
     mix-blend-mode: difference;
-    background-color: red;
     margin-right: 1rem;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -622,17 +650,18 @@ header {
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
-    border: 1px solid #373737;
-    color: white;
+    border: 1px solid var(--dark-gray);
+    color: var(--primary-clr);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 .portfolio .btn:hover {
-    background: rgba(18, 18, 23, 1);
+    background: var(--bg-dark);
     scale: 1.05;
 }
 
+/****** Testimonials ******/
 .testimonials {
     width: 100vw;
     height: 100vh;
@@ -645,14 +674,14 @@ header {
 
 
 .testimonials-headings .secondary {
-    color: white;
+    color: var(--primary-clr);
     letter-spacing: 0.5rem;
     text-align: center;
     font-size: 1.2rem;
 }
 
 .testimonials-headings .primary {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
@@ -690,7 +719,6 @@ header {
     height: 100%;
 }
 
-
 .testimonials-container .testimonials-container-inner {
     display: flex;
     justify-content: center;
@@ -704,7 +732,7 @@ header {
     border-radius: 1rem;
     padding: 2.5rem;
     transition: all 0.3s ease-in-out;
-    color: white;
+    color: var(--primary-clr);
     margin: 1rem;
     border-top: 1px solid rgb(49, 49, 49, 0.4);
     border-bottom: 1px solid rgba(255, 107, 134, 0.4);
@@ -719,7 +747,7 @@ header {
 }
 
 .testimonials-container .card span {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
@@ -735,7 +763,7 @@ header {
 .testimonials-container .card .card-para {
     font-size: 1.1rem;
     line-height: 1.8rem;
-    color: gray;
+    color: var(--secondary-clr);
 
 }
 
@@ -758,7 +786,7 @@ header {
 }
 
 .testimonials-container .customer .customer-detail .name {
-    color: white;
+    color: var(--primary-clr);
     font-size: 1.2rem;
 }
 
@@ -770,11 +798,11 @@ header {
 .testimonials-container .customer .linearborder {
     width: 100%;
     padding: 1px;
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
 }
 
 .testimonials .testimonials-divider {
-    color: white;
+    color: var(--primary-clr);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -784,7 +812,7 @@ header {
 .testimonials .testimonials-divider .dividerline {
     width: 5%;
     padding: 0.5px;
-    background-color: #505050;
+    background-color: var(--dark-gray);
     margin: 0 0.5rem;
 }
 
@@ -798,6 +826,7 @@ header {
     height: 100%;
 }
 
+/****** Form ******/
 .form {
     width: 100vw;
     height: 100vh;
@@ -830,12 +859,12 @@ header {
 }
 
 .form-container .form-heading .secondary {
-    color: white;
+    color: var(--primary-clr);
     letter-spacing: 0.5rem;
 }
 
 .form-container .form-heading .primary {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.5rem;
@@ -844,7 +873,7 @@ header {
 }
 
 .form .form-container .phone-number {
-    color: white;
+    color: var(--primary-clr);
     letter-spacing: 0.2rem;
     font-size: 2rem;
     font-weight: bold;
@@ -856,7 +885,6 @@ header {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     flex-direction: column;
     padding: 1rem 0;
 }
@@ -864,7 +892,7 @@ header {
 .form .form-form .inputfield {
     width: 45%;
     display: inline-block;
-    color: white;
+    color: var(--primary-clr);
     margin: 0.2rem;
     padding: 0.3rem;
 }
@@ -884,9 +912,9 @@ header {
     font-size: 1rem;
     background: transparent;
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--secondary-clr);
     outline: none;
-    color: white;
+    color: var(--primary-clr);
 }
 
 .form .form-form .inputfield input::placeholder {
@@ -898,24 +926,26 @@ header {
     border-radius: 2rem;
     font-size: 0.8rem;
     background: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--primary-clr);    
+    color: var(--primary-clr);
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
 .form-form .btn:hover {
-    background: rgba(18, 18, 23, 1);
+    background: var(--bg-dark);
     border: none;
     scale: 1.03;
 }
 
+/****** Slider ******/
 .slider {
     width: 100vw;
     background: url(assets/img/slider.PNG) no-repeat center center / cover;
     padding: 3.5rem;
 }
 
+/****** Footer ******/
 .footer {
     width: 100vw;
     /* height: 100vh; */
@@ -928,7 +958,7 @@ header {
 }
 
 .footer-top .primary {
-    background: linear-gradient(to right, #ff6a3c, #ff0075, #8f00ff);
+    background: var(--linear-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.5rem;
@@ -970,25 +1000,25 @@ header {
 }
 
 .footer-top-first .card .card-heading {
-    color: white;
+    color: var(--primary-clr);
     font-size: 1.3rem;
     margin: 1rem 0;
 }
 
 .footer-top-first .card .card-para {
-    color: gray;
+    color: var(--secondary-clr);
     font-size: 1rem;
     width: 60%;
 }
 
 .footer-top-first .card .card-number {
-    color: white;
+    color: var(--primary-clr);
     font-size: 1.5rem;
     margin: 1rem 0;
 }
 
 .footer .footer-top-second {
-    color: white;
+    color: var(--primary-clr);
 }
 
 .footer-top-second .footer-top-second-top {
@@ -1000,13 +1030,13 @@ header {
     width: 38%;
     font-size: 1.3rem;
     padding: 1rem;
-    color: gray;
-    border-bottom: 1px solid #313131;
-    border-right: 1px solid #313131
+    color: var(--secondary-clr);
+    border-bottom: 1px solid var(--dark-gray);
+    border-right: 1px solid var(--dark-gray);
 }
 
 .footer-top-second .footer-top-second-top .para span {
-    color: white;
+    color: var(--primary-clr);
 }
 
 .footer-top-second .footer-top-second-top .phone {
@@ -1015,8 +1045,8 @@ header {
     width: 25%;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 1px solid #313131;
-    border-right: 1px solid #313131;
+    border-bottom: 1px solid var(--dark-gray);
+    border-right: 1px solid var(--dark-gray);
 }
 
 .footer-top-second .footer-top-second-top .phoneImage {
@@ -1030,7 +1060,7 @@ header {
 }
 
 .footer-top-second .footer-top-second-top .phone p {
-    color: gray;
+    color: var(--secondary-clr);
 }
 
 .footer-top-second .footer-top-second-top .phone .number {
@@ -1043,11 +1073,11 @@ header {
     width: 35%;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 1px solid #313131;
+    border-bottom: 1px solid var(--dark-gray);
 }
 
 .footer-top-second .footer-top-second-top .email p {
-    color: gray;
+    color: var(--secondary-clr);
 }
 
 .footer-top-second .footer-top-second-top .email .number {
@@ -1062,23 +1092,23 @@ header {
 
 .footer-top-second-bottom .footer-quicklinks {
     padding: 2rem ;
-    border-right: 1px solid #313131;
+    border-right: 1px solid var(--dark-gray);
     width: 25%;
 }
 
 .footer-top-second-bottom .head {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: white;
+    color: var(--primary-clr);
 }
 .footer-top-second-bottom p {
-    color: gray;
+    color: var(--secondary-clr);
     line-height: 1.5rem;
 }
 
 .footer-top-second-bottom .footer-services {
     padding: 2rem;
-    border-right: 1px solid #313131;
+    border-right: 1px solid var(--dark-gray);
     width: 25%;
 }
 
@@ -1094,11 +1124,11 @@ header {
     width: 18rem;
     background: rgba(18, 18, 23, 0.4);
     outline: none;
-    border: 1px solid #121212;
+    border: 1px solid rgba(20, 20, 23, 1);
 }
 
 .footer-top-second-bottom .footer-get-connected input::placeholder {
-    color: gray;
+    color: var(--secondary-clr);
 }
 .footer-top-second-bottom .footer-get-connected .social-icons{
     display: flex;
@@ -1107,7 +1137,7 @@ header {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
-    border: 1px solid #313131;
+    border: 1px solid var(--dark-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1115,11 +1145,13 @@ header {
 }
 .footer-top-second-bottom .footer-get-connected .fb img{
     filter: invert();
+    width: 50%;
+    height: 50%;
 }
 
 .footer-middle{
     width: 100%;
-    color:  rgba(18, 18, 23, 1);
+    color:  var(--bg-dark);
     font-size: 6.5rem;
     font-weight: bold;
     text-align: center;
@@ -1129,14 +1161,14 @@ header {
 
 .footer-bottom{
     width: 100vw;
-    background-color: rgba(18, 18, 23, 1);
+    background-color: var(--bg-dark);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-bottom p{
-    color: white;
+    color: var(--primary-clr);
     padding: 1rem 2rem;
     letter-spacing: 0.1rem;
 }
