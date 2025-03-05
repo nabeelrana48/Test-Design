@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Design - Figma Design Landing Page</title>
+    <link rel="shortcut icon" href="assets/img/glass.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,1,0&icon_names=arrow_right_alt" />
@@ -16,13 +17,20 @@
     <main id="/" class="main">
         <header>
             <nav class="navbar">
-                <div><a href="/" class="logo">LOGOHERE</a></div>
-                <div class="navitems">
+                <div class="logo">
+                    <a href="/">LOGOHERE</a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="navitems" id="navitems">
                     <ul>
                         <li><a href="/">HOME</a></li>
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#services">SERVICES</a></li>
-                        <li><a href="#portfolio">PORTFOIO</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
                         <li><a href="#packages">PACKAGES</a></li>
                     </ul>
                 </div>
@@ -30,32 +38,34 @@
                     <div class="btn">+96 285 8564 222</div>
                     <div class="btn">GET A QUOTE</div>
                     <div class="darkmode">
-                        <img src="assets/img/moon.png" alt="">
+                        <img src="assets/img/icons/moon.png" alt="Dark Mode Toggle">
                     </div>
                 </div>
             </nav>
         </header>
+
         <!-- Home -->
         <section class="home">
             <div class="home-first">
                 <div class="home-first-heading">
                     <p>THE DESIGN DUDES</p>
-                    <h1>Making Your </h1>
-                    <h1> Brand Shine in the</h1>
-                    <h1 class="clr">Digital Universe</h1>
+                    <h1>Making Your
+                        Brand Shine in the
+                        <span class="clr">Digital Universe</span>
+                    </h1>
                     <button class="btn">
                         <span class="arrow"></span>
                         <span>SHOW REEL</span>
                     </button>
                 </div>
                 <div class="home-first-contact">
-                    <img src="assets/img/phone.png" alt="">
+                    <img src="assets/img/icons/phone.png" alt="">
                     <div>
                         <p>Call Now</p>
                         <h2>+96 285 8564 222</h2>
                     </div>
                     <div class="hr"></div>
-                    <img src="assets/img/message.png" alt="">
+                    <img src="assets/img/icons/message.png" alt="">
                     <div>
                         <h2>Lets</h2>
                         <h2>Talk Now</h2>
@@ -117,7 +127,9 @@
 
     <!-- Approach -->
     <section class="approach">
-        <div class="approach-first"></div>
+        <div class="approach-first">
+            <img src="assets/img/approach.png" alt="">
+        </div>
         <div class="approach-second">
             <div>
                 <p class="heading-secondary">OUR APPROACH</p>
@@ -279,11 +291,11 @@
         </div>
         <div class="testimonials-divider">
             <div class="arrow">
-                <img src="assets/img/arrow_back.png" alt="">
+                <img src="assets/img/icons/arrow_back.png" alt="">
             </div>
             <div class="dividerline"></div>
             <div class="arrow">
-                <img src="assets/img/arrow_forward.png" alt="">
+                <img src="assets/img/icons/arrow_forward.png" alt="">
             </div>
         </div>
     </section>
@@ -364,7 +376,7 @@
                             lives.</div>
                         <div class="phone">
                             <div class="phoneImage">
-                                <img src="assets/img/phone.png" alt="">
+                                <img src="assets/img/icons/phone.png" alt="">
                             </div>
                             <div class="phone-number">
                                 <p>Phone</p>
@@ -373,7 +385,7 @@
                         </div>
                         <div class="email">
                             <div class="phoneImage">
-                                <img src="assets/img/mail.png" alt="">
+                                <img src="assets/img/icons/mail.png" alt="">
                             </div>
                             <div class="phone-number">
                                 <p>Email</p>
@@ -404,13 +416,13 @@
                             <input type="text" class="search" placeholder="Enter Your Email Address">
                             <div class="social-icons">
                                 <div class="fb">
-                                    <img src="assets/img/fb.png" alt="">
+                                    <img src="assets/img/icons/fb.png" alt="">
                                 </div>
                                 <div class="fb">
-                                    <img src="assets/img/insta.png" alt="">
+                                    <img src="assets/img/icons/insta.png" alt="">
                                 </div>
                                 <div class="fb">
-                                    <img src="assets/img/in.png" alt="">
+                                    <img src="assets/img/icons/in.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -426,6 +438,8 @@
             <p>Terms & Conditions | Privacy Policy</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
