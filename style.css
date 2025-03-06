@@ -39,7 +39,6 @@ html {
 
 /****** Main ******/
 main {
-    height: 100vh;
     width: 100vw;
     background: url("assets/img/homebg.jpg") no-repeat center center/cover;
     overflow: hidden;
@@ -48,7 +47,8 @@ main {
 header {
     background-color: rgba(29, 29, 29, 0.6);
     width: 100%;
-    position: fixed;
+    /* position: fixed;  changed position due to issue. have to fixed this issue */
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -138,7 +138,7 @@ header {
     color: var(--primary-clr);
     display: flex;
     justify-content: space-around;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     /* font-family: 'Courier New', Courier, monospace; */
 }
@@ -149,6 +149,8 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 .home-first-heading {
@@ -158,7 +160,7 @@ header {
 
 .home-first-heading p {
     margin: 0.5rem 0;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.5rem;
     font-size: 1rem;
 }
 
@@ -222,10 +224,15 @@ header {
     width: 50vw;
     display: flex;
     justify-content: center;
+    position: relative;
+
 }
 
 .home-second img {
-    height: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: -50px;
 }
 
 /****** Brands ******/
@@ -245,7 +252,7 @@ header {
 
 /****** About ******/
 .about {
-    height: 100vh;
+    /* height: 100vh; */
     background: rgba(10, 10, 13, 1);
     color: var(--primary-clr);
     display: flex;
@@ -288,10 +295,12 @@ header {
     margin: 1rem;
     width: 50%;
     padding-left: 5rem;
+    position: relative;
+    z-index: 4;
 }
 
 .about-heading p {
-    letter-spacing: 0.8rem;
+    letter-spacing: 0.5rem;
 }
 
 .about-heading h1 {
@@ -349,7 +358,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 1rem;
     padding: 1rem;
     width: 100%;
@@ -422,6 +431,7 @@ header {
     -webkit-text-fill-color: transparent;
     font-size: 3.5rem;
     margin: 1rem 0;
+    font-weight: bold;
 }
 
 .approach-second .para {
@@ -730,12 +740,13 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0.5rem;
 }
 
 .testimonials-container .card {
     height: 20rem;
     width: 30rem;
-    background-color: rgba(18, 18, 23, 0.4);
+    background-color: rgba(18, 18, 23, 0.7);
     border-radius: 1rem;
     padding: 2.5rem;
     transition: all 0.3s ease-in-out;
@@ -775,7 +786,7 @@ header {
 }
 
 .testimonials-container .customer {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 .testimonials-container .customer .customer-detail {
@@ -814,6 +825,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .testimonials .testimonials-divider .dividerline {
@@ -979,6 +991,10 @@ header {
     justify-content: space-evenly;
 }
 
+.footer .footer-top .footer-top-container .footer-top-first {
+    margin-bottom: 0.5rem;
+}
+
 .footer-top-first .card {
     height: 20rem;
     width: 30rem;
@@ -1093,7 +1109,7 @@ header {
 
 .footer-top-second-bottom {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
 
@@ -1125,7 +1141,7 @@ header {
 }
 
 .footer-top-second-bottom .footer-get-connected input {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin: 1rem 0;
     padding: 1rem;
     border-radius: 2rem;
@@ -1133,6 +1149,7 @@ header {
     background: rgba(18, 18, 23, 0.4);
     outline: none;
     border: 1px solid rgba(20, 20, 23, 1);
+    color: var(--secondary-clr);
 }
 
 .footer-top-second-bottom .footer-get-connected input::placeholder {
@@ -1152,6 +1169,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-right: 0.5rem;
+    cursor: pointer;
 }
 
 .footer-top-second-bottom .footer-get-connected .fb img {
@@ -1187,7 +1205,7 @@ header {
 
 /* --- RESPONSIVE DESIGN --- */
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1024px) {
 
     /******Navbar******/
     .navitems ul li {
@@ -1218,7 +1236,6 @@ header {
 
     .home-first-heading {
         margin: 0.5rem;
-        width: 75%;
     }
 
     .home-first-heading h1 {
@@ -1244,9 +1261,6 @@ header {
     }
 
     /******About******/
-    .about {
-        height: auto;
-    }
 
     .about .glass1 {
         width: 22rem;
@@ -1281,7 +1295,7 @@ header {
     .about-second {
         margin: 0.5rem;
         padding: 0.5rem;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     .about-second .card {
@@ -1289,12 +1303,11 @@ header {
         width: 22rem;
         padding: 1.8rem;
         font-size: 1.2rem;
-        margin: 0.5rem;
     }
 
     /******approach******/
     .approach-second .heading-primary {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .approach-second .para {
@@ -1304,8 +1317,8 @@ header {
     }
 
     .approach-second .card {
-        height: 3.2rem;
-        width: 18rem;
+        height: 3.5rem;
+        width: 20rem;
         font-size: 1rem;
     }
 
@@ -1319,6 +1332,10 @@ header {
         padding: 1rem 3rem
     }
 
+    .services-heading .primary {
+        font-size: 3rem;
+    }
+
     .services .service p {
         font-size: 3rem;
     }
@@ -1329,12 +1346,17 @@ header {
     }
 
     /******portfolio******/
+    .porfolio-heading {
+        text-align: center;
+    }
+
     .portfolio-first .primary {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .portfolio-first .portfolio-headers {
         padding: 0.5rem 0;
+        text-align: center;
     }
 
     .portfolio-first .portfolio-headers span {
@@ -1356,12 +1378,18 @@ header {
 
     .testimonials-headings .primary {
         font-size: 3rem;
+        position: relative;
+        z-index: 4;
+    }
+
+    .testimonials-container .testimonials-container-inner {
+        margin: 0.2rem;
     }
 
     .testimonials-container .card {
         height: 14rem;
-        width: 24rem;
-        padding: 0.5rem 2rem;
+        width: 23rem;
+        padding: 0.5rem 1.5rem;
     }
 
     .testimonials-container .card span {
@@ -1408,6 +1436,7 @@ header {
 
     .footer-top .primary {
         font-size: 1.8rem;
+        text-align: center;
     }
 
     .footer .footer-top .footer-top-container {
@@ -1430,13 +1459,17 @@ header {
     }
 
     .footer-middle {
-        font-size: 4rem;
+        font-size: 3.8rem;
         margin: 1.5rem 0;
         padding: 0.5rem 0;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
+
+    .header {
+        position: fixed;
+    }
 
     /******Navbar******/
     .navitems {
@@ -1512,6 +1545,11 @@ header {
         display: none;
     }
 
+    .home .home-first {
+        width: 100%;
+    }
+    
+
     /******About******/
     .about-first {
         flex-wrap: wrap;
@@ -1519,7 +1557,16 @@ header {
 
     .about-heading,
     .about-content {
-        width: 100%
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content p {
+        width: 90%;
+    }
+
+    .about-second {
+        flex-wrap: wrap;
     }
 
     /******Approach******/
@@ -1533,19 +1580,185 @@ header {
         align-items: center;
     }
 
+    .approach-second .card {
+        width: 26rem;
+    }
+
+    /******Portfolio******/
+
+    .porfolio-heading {
+        text-align: center;
+    }
+
+    .portfolio-first .portfolio-headers span {
+        font-size: 0.8rem;
+        padding: 0.2rem;
+    }
+
     /******Testimonials******/
     .testimonials-container {
         flex-wrap: wrap;
     }
 
+    .testimonials-container .testimonials-container-inner {
+        margin: 0.5rem;
+    }
+
+    /******Form******/
+    .form-container .form-heading .secondary {
+        font-size: 0.8rem;
+    }
+
     /******Footer******/
+    .footer .footer-top-second {
+        text-align: center;
+    }
+
+    .footer-top-second-bottom .footer-get-connected input {
+        width: 12rem;
+    }
+
     .footer-middle {
         font-size: 3rem;
     }
+
     .footer-bottom p {
         font-size: 0.8rem;
         padding: 0.8rem;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .services .service p {
+        font-size: 2rem;
+    }
+
+    .testimonials-headings .primary {
+        font-size: 2.5rem;
+    }
+
+    .form .form-container {
+        width: 90%;
+    }
+
+    .form-container-main .form-heading {
+        padding-right: 0.5rem;
+    }
+
+    .form-container .form-heading .secondary {
+        letter-spacing: 0.3rem;
+    }
+
+    .form .form-container .phone-number {
+        font-size: 1.3rem;
+        padding-right: 0.5rem;
+    }
+
+    .footer-middle {
+        font-size: 2.3rem;
+        margin: 0.5rem 0;
+    }
+
+    .footer-bottom {
+        justify-content: center;
+    }
+
+    .footer-bottom p:nth-child(2) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-first-contact {
+        width: 100%;
+    }
+
+    .about {
+        padding: 1rem;
+    }
+
+    .about-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .approach-second .heading-primary {
+        font-size: 2.5rem;
+    }
+
+    .approach-second .card {
+        width: 20rem;
+    }
+
+    .services-heading .primary {
+        font-size: 2.5rem;
+    }
+
+    .services .service .number {
+        font-size: 1.5rem;
+    }
+
+    .services .service p {
+        font-size: 1.5rem;
+    }
+
+    .services .service .service-arrow-div {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .portfolio-first .secondary {
+        font-size: 0.8rem;
+    }
+
+    .portfolio-first .primary {
+        font-size: 2.5rem;
+    }
+
+    .testimonials-headings .secondary {
+        font-size: 0.8rem;
+    }
+
+    .testimonials-container .card {
+        width: 22rem;
+    }
+
+    .form .form-form .inputfield {
+        width: auto;
+    }
+
+    .form .form-container .phone-number {
+        font-size: 1rem;
+    }
+
+    .form-form .btn {
+        padding: 0.7rem 2rem;
+    }
+
+    .footer .footer-top {
+        padding: 0.5rem;
+    }
+
+    .footer-top-second .footer-top-second-top .email .number {
+        letter-spacing: 0rem;
+    }
+
+    .footer-top-second-bottom .footer-quicklinks {
+        padding: 2rem 0.5rem;
+    }
+
+    .footer-top-second-bottom .footer-services {
+        padding: 2rem 0.5rem;
+        width: 30%;
+    }
+
+    .footer-top-second-bottom .footer-get-connected input {
+        width: 8rem;
+    }
+
+    .footer-middle {
+        font-size: 1.8rem;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
